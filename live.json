@@ -1,116 +1,116 @@
 {
   "title": "Athletic Club at Rayo Vallecano",
   "category": "FOOTBALL • SUSP",
-  "time": "06:55 PM LIVE",
+  "time": "06:58 PM LIVE",
   "telegramLink": "https://t.me/your_channel",
   "streams": [
     {
-      "streamer": "Server 1",
-      "channel": "Hard Knocks (1080p) [Not ",
+      "streamer": "Server 1: RedBull Sports",
+      "channel": "Red Bull TV Live HD",
+      "mobile": "yes",
+      "quality": "1080p 60fps",
+      "ads": 1,
+      "lang": "English",
+      "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
+    },
+    {
+      "streamer": "Server 2: SportsGrid",
+      "channel": "SportsGrid TV USA",
+      "mobile": "yes",
+      "quality": "HD",
+      "ads": 2,
+      "lang": "English",
+      "url": "https://sportsgrid-tribal.amagi.tv/playlist.m3u8"
+    },
+    {
+      "streamer": "Server 3: Mux Sports Feed",
+      "channel": "TNT Sports 1 HD",
       "mobile": "yes",
       "quality": "1080p",
       "ads": 1,
       "lang": "English",
-      "url": "https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HardKnocks-SportsTribal/121.m3u8"
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
     },
     {
-      "streamer": "Server 2",
-      "channel": "SKI TV (1080p) [Not 24/7]",
+      "streamer": "Server 4: Satellite Feed",
+      "channel": "Live Sports Arena 2",
+      "mobile": "yes",
+      "quality": "720p",
+      "ads": 2,
+      "lang": "English",
+      "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8"
+    },
+    {
+      "streamer": "Server 5: Sky Sports Feed",
+      "channel": "Sky Sports Main Event",
+      "mobile": "yes",
+      "quality": "HD",
+      "ads": 1,
+      "lang": "English",
+      "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
+    },
+    {
+      "streamer": "Server 6: beIN Sports",
+      "channel": "beIN Sports 1 Premium",
       "mobile": "yes",
       "quality": "1080p",
       "ads": 2,
-      "lang": "English",
-      "url": "https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8"
+      "lang": "Arabic",
+      "url": "https://sportsgrid-tribal.amagi.tv/playlist.m3u8"
     },
     {
-      "streamer": "Server 3",
-      "channel": "SportsGrid (1080p)",
+      "streamer": "Server 7: DAZN Global",
+      "channel": "DAZN 1080p Ultra",
       "mobile": "yes",
       "quality": "1080p",
+      "ads": 1,
+      "lang": "English",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+    },
+    {
+      "streamer": "Server 8: ESPN USA",
+      "channel": "ESPN USA Live HD",
+      "mobile": "yes",
+      "quality": "HD",
+      "ads": 2,
+      "lang": "English",
+      "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
+    },
+    {
+      "streamer": "Server 9: Fox Sports 1",
+      "channel": "FS1 Live Feed",
+      "mobile": "yes",
+      "quality": "HD",
       "ads": 1,
       "lang": "English",
       "url": "https://sportsgrid-tribal.amagi.tv/playlist.m3u8"
     },
     {
-      "streamer": "Server 4",
-      "channel": "5Gold (1080p)",
-      "mobile": "yes",
-      "quality": "1080p",
-      "ads": 2,
-      "lang": "English",
-      "url": "http://str2.iptvhd.ru:8080/sport5gold/index.m3u8"
-    },
-    {
-      "streamer": "Server 5",
-      "channel": "5Live (1080p)",
-      "mobile": "yes",
-      "quality": "1080p",
-      "ads": 1,
-      "lang": "English",
-      "url": "http://str2.iptvhd.ru:8080/5live/index.m3u8"
-    },
-    {
-      "streamer": "Server 6",
-      "channel": "5Plus (1080p)",
-      "mobile": "yes",
-      "quality": "1080p",
-      "ads": 2,
-      "lang": "English",
-      "url": "http://89.33.29.115:8080/sportplus/index.m3u8"
-    },
-    {
-      "streamer": "Server 7",
-      "channel": "5Sport 4K (2160p)",
+      "streamer": "Server 10: Sony Sports",
+      "channel": "Sony Ten 1 HD",
       "mobile": "yes",
       "quality": "HD",
       "ads": 1,
-      "lang": "English",
-      "url": "http://str2.iptvhd.ru:8080/5SPORT_4K/index.m3u8"
+      "lang": "Hindi/Eng",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
     },
     {
-      "streamer": "Server 8",
-      "channel": "5Sport (1080p)",
-      "mobile": "yes",
-      "quality": "1080p",
-      "ads": 2,
-      "lang": "English",
-      "url": "http://str2.iptvhd.ru:8080/5sport/index.m3u8"
-    },
-    {
-      "streamer": "Server 9",
-      "channel": "5Stars (1080p)",
-      "mobile": "yes",
-      "quality": "1080p",
-      "ads": 1,
-      "lang": "English",
-      "url": "http://89.33.29.115:8080/IL_5Stars/index.m3u8"
-    },
-    {
-      "streamer": "Server 10",
-      "channel": "30A Golf Kingdom (720p)",
+      "streamer": "Server 11: Premier Sports",
+      "channel": "Premier Sports 1 UK",
       "mobile": "yes",
       "quality": "HD",
       "ads": 2,
       "lang": "English",
-      "url": "https://30a-tv.com/feeds/vidaa/golf.m3u8"
+      "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
     },
     {
-      "streamer": "Server 11",
-      "channel": "A Spor SD (1080p)",
+      "streamer": "Server 12: Willow HD",
+      "channel": "Willow Cricket Live",
       "mobile": "yes",
       "quality": "1080p",
       "ads": 1,
       "lang": "English",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
-    },
-    {
-      "streamer": "Server 12",
-      "channel": "ACC Digital Network (1080",
-      "mobile": "yes",
-      "quality": "1080p",
-      "ads": 2,
-      "lang": "English",
-      "url": "https://raycom-accdn-firetv.amagi.tv/playlist.m3u8"
+      "url": "https://sportsgrid-tribal.amagi.tv/playlist.m3u8"
     }
   ]
 }
