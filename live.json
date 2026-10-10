@@ -1,0 +1,20 @@
+{
+  "title": "MotoGP Indonesian Grand Prix",
+  "category": "MOTOGP LIVE",
+  "time": "02:10 LIVE TIME",
+  "telegramLink": "https://t.me/your_channel",
+  "streams": [
+    { "streamer": "SoccerStreams HD", "channel": "TNT SPORTS PRO", "mobile": "yes", "quality": "HD", "ads": 1, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "Hasgoal Streams", "channel": "TNT SPORT HD", "mobile": "yes", "quality": "HD", "ads": 2, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "CrackStreams", "channel": "TNT SPORT HD", "mobile": "yes", "quality": "HD", "ads": 1, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "Wolfstreams 2K", "channel": "TNT Sports 2 UK", "mobile": "yes", "quality": "HD", "ads": 2, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "ApexStreams", "channel": "Sky Sport MotoGP", "mobile": "yes", "quality": "HD", "ads": 1, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "DAZN Live", "channel": "DAZN 1080p", "mobile": "yes", "quality": "HD", "ads": 1, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "VIPLeague", "channel": "beIN Sports 1", "mobile": "yes", "quality": "HD", "ads": 2, "lang": "Arabic", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "BilaSport", "channel": "ESPN USA Live", "mobile": "yes", "quality": "HD", "ads": 1, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "StreamEast Live", "channel": "Fox Sports 1", "mobile": "yes", "quality": "HD", "ads": 2, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "CricHD Sports", "channel": "Sony Ten 1 HD", "mobile": "yes", "quality": "HD", "ads": 1, "lang": "Hindi", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "SportSurge", "channel": "Willow Cricket", "mobile": "yes", "quality": "HD", "ads": 1, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" },
+    { "streamer": "BuffStreams", "channel": "SuperSport Grand", "mobile": "yes", "quality": "HD", "ads": 2, "lang": "English", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" }
+  ]
+}
