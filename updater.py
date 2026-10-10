@@ -3,13 +3,12 @@ import requests
 import datetime
 import pytz
 
-# ১. ESPN ওপেন এপিআই থেকে আজকের আসল খেলার নাম আনা
 def get_todays_featured_match():
     sports_endpoints = [
-        {"name": "FOOTBALL", "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"}, # La Liga
-        {"name": "FOOTBALL", "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"}, # Premier League
-        {"name": "NBA", "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard"},     # Basketball
-        {"name": "NHL", "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard"}         # Ice Hockey
+        {"name": "FOOTBALL", "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"},
+        {"name": "FOOTBALL", "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"},
+        {"name": "NBA", "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard"},
+        {"name": "NHL", "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard"}
     ]
 
     for sport in sports_endpoints:
@@ -28,18 +27,17 @@ def get_todays_featured_match():
 
     return "Global Sports Arena - Live Satellite Feed", "LIVE SPORTS HD"
 
-# ২. আসল স্পোর্টস চ্যানেলগুলোর এমবেড স্ট্রিম লিংক (আইফ্রেম)
 def get_real_sports_embeds():
-    # এই লিংকগুলো সরাসরি স্পোর্টস টিভি সম্প্রচার প্রোভাইডারদের এমবেড প্লেয়ার
+    # সরাসরি ওপেন এমবেড ফিড (TopEmbed & Streamed)
     embed_streams = [
         {
             "streamer": "Server 1: TNT Sports",
-            "channel": "TNT Sports 1 UK",
+            "channel": "TNT Sports 1 HD",
             "mobile": "yes",
             "quality": "1080p HD",
             "ads": 1,
             "lang": "English",
-            "url": "https://epicstream.net/embed/tnt1"
+            "url": "https://topembed.pw/channel/TNTSports1"
         },
         {
             "streamer": "Server 2: Sky Sports",
@@ -48,7 +46,7 @@ def get_real_sports_embeds():
             "quality": "1080p HD",
             "ads": 2,
             "lang": "English",
-            "url": "https://epicstream.net/embed/skymain"
+            "url": "https://topembed.pw/channel/SkySportsMainEvent"
         },
         {
             "streamer": "Server 3: beIN Sports",
@@ -57,7 +55,7 @@ def get_real_sports_embeds():
             "quality": "1080p HD",
             "ads": 1,
             "lang": "English",
-            "url": "https://epicstream.net/embed/bein1"
+            "url": "https://topembed.pw/channel/beINSports1"
         },
         {
             "streamer": "Server 4: Movistar LaLiga",
@@ -66,7 +64,7 @@ def get_real_sports_embeds():
             "quality": "1080p HD",
             "ads": 2,
             "lang": "Spanish",
-            "url": "https://epicstream.net/embed/movistarliga"
+            "url": "https://topembed.pw/channel/MovistarLaLiga"
         },
         {
             "streamer": "Server 5: DAZN Sport",
@@ -75,25 +73,25 @@ def get_real_sports_embeds():
             "quality": "1080p Ultra",
             "ads": 1,
             "lang": "English",
-            "url": "https://epicstream.net/embed/dazn1"
+            "url": "https://topembed.pw/channel/DAZN1"
         },
         {
             "streamer": "Server 6: ESPN USA",
-            "channel": "ESPN Live USA",
+            "channel": "ESPN USA Live HD",
             "mobile": "yes",
             "quality": "720p HD",
             "ads": 2,
             "lang": "English",
-            "url": "https://epicstream.net/embed/espn"
+            "url": "https://topembed.pw/channel/ESPN"
         },
         {
-            "streamer": "Server 7: Fox Sports",
+            "streamer": "Server 7: Fox Sports 1",
             "channel": "Fox Sports 1 (FS1)",
             "mobile": "yes",
             "quality": "1080p HD",
             "ads": 1,
             "lang": "English",
-            "url": "https://epicstream.net/embed/fs1"
+            "url": "https://topembed.pw/channel/FS1"
         },
         {
             "streamer": "Server 8: Sony Sports",
@@ -102,7 +100,7 @@ def get_real_sports_embeds():
             "quality": "HD",
             "ads": 1,
             "lang": "Hindi/Eng",
-            "url": "https://epicstream.net/embed/sonyten1"
+            "url": "https://topembed.pw/channel/SonySportsTen1"
         },
         {
             "streamer": "Server 9: Premier Sports",
@@ -111,7 +109,7 @@ def get_real_sports_embeds():
             "quality": "HD",
             "ads": 2,
             "lang": "English",
-            "url": "https://epicstream.net/embed/premiersports1"
+            "url": "https://topembed.pw/channel/PremierSports1"
         },
         {
             "streamer": "Server 10: SuperSport",
@@ -120,7 +118,7 @@ def get_real_sports_embeds():
             "quality": "HD",
             "ads": 1,
             "lang": "English",
-            "url": "https://epicstream.net/embed/supersport"
+            "url": "https://topembed.pw/channel/SuperSportPremierLeague"
         },
         {
             "streamer": "Server 11: Willow Cricket",
@@ -129,16 +127,16 @@ def get_real_sports_embeds():
             "quality": "1080p HD",
             "ads": 1,
             "lang": "English",
-            "url": "https://epicstream.net/embed/willow"
+            "url": "https://topembed.pw/channel/WillowCricket"
         },
         {
-            "streamer": "Server 12: Eurosport",
-            "channel": "Eurosport 1 Live",
+            "streamer": "Server 12: Eurosport 1",
+            "channel": "Eurosport 1 Live HD",
             "mobile": "yes",
             "quality": "1080p HD",
             "ads": 2,
             "lang": "English",
-            "url": "https://epicstream.net/embed/eurosport1"
+            "url": "https://topembed.pw/channel/Eurosport1"
         }
     ]
     return embed_streams
@@ -162,7 +160,7 @@ def run_automation():
     with open("live.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    print(f"Updated live.json with Live Sports Embeds! Match: {match_title}")
+    print(f"Updated live.json with TopEmbed Streams! Match: {match_title}")
 
 if __name__ == "__main__":
     run_automation()
